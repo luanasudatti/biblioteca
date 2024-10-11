@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>Biblioteca Estelar</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Biblioteca</h2>
+        <p>A Biblioteca Estelar, situada em uma colina serena com vista para o mar, era uma joia escondida do mundo
+            acadêmico. Fundada em 1810 por astrônomos e naturalistas, começou como um pequeno depósito de mapas
+            estelares e diários de exploração, mas rapidamente se expandiu para abrigar todo tipo de conhecimento
+            científico.
+
+            Seu nome foi escolhido por conta de uma lenda: dizia-se que à noite, as estrelas refletiam na grande cúpula
+            de vidro no teto da biblioteca, como se o universo estivesse colaborando para iluminar o caminho dos
+            estudiosos que ali se reuniam. Além disso, a Biblioteca Estelar era conhecida por suas coleções de livros
+            sobre astronomia, biologia marinha e física teórica.</p>
+
+            <p> 1945, durante a Segunda Guerra Mundial, ela quase foi destruída por um bombardeio, mas um grupo de
+            acadêmicos locais arriscou suas vidas para salvar os livros mais valiosos. Desde então, a biblioteca se
+            tornou um símbolo de resistência ao tempo e ao caos.
+
+            Em 2005, a Estelar foi pioneira na introdução de um sistema de inteligência artificial para ajudar os
+            pesquisadores a encontrar padrões entre documentos históricos e novas descobertas científicas. Esse sistema,
+            conhecido como "Orion", se tornou quase um curador, ajudando a conectar ideias e estudos que pareciam
+            desconectados.</p>
+
+           <p>Hoje, a Biblioteca Estelar continua a atrair os mais brilhantes cientistas do mundo, oferecendo não só
+            livros, mas uma experiência de descoberta cósmica.</p>
+
+
+
+
+
+
+        </p>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <input type="text" placeholder="Buscar livros...">
+        <div class="livros">
+            <div class="livro"> <img src="livro1.png" width="470px" class="src">Crepúsculo</div>
+            <div class="livro"><img src="livro2.webp" width="200px" class="src">Harry Potter e a pedra filosofal</div>
+            <div class="livro"><img src="livro3.jpg" width="200px" class="src"> Don Quixote de La Mancha</div>
+            <div class="livro"> <img src="imagem4.jpg" width="200px" class="src">A pequena sereia</div>
+            <div class="livro"><img src="imagem5.jpg" width="200px" class="src">Como eu era antes de você</div>
+            <div class="livro"><img src="imagem6.jpg" width="200px" class="src"> Anne de Avolea</div>
+            <div class="livro"> <img src="imagem13.jpg" width="200px" class="src">Harry Potter e a Câmara Secreta</div>
+            <div class="livro"><img src="imagem14.jpg" width="200px" class="src">O Menino Maluquinho</div>
+            <div class="livro"><img src="imagem16.jpg" width="200px" class="src"> O Iluminado</div>
+        </div>
+    </section>
+
+    <section id="carrossel">
+        <h2>Confira mais opções</h2>
+        <div class="carrossel-container">
+            <div class="carrossel">
+                <img src="imagem8.jpg" width="400px" height="450px" alt="">
+                <img src="imagem9.jpg" width="400px" height="450px" alt="">
+                <img src="imagem11.jpg" width="400px" height="450px" alt="">
+                <img src="imagem12.jpg" width="400px" height="450px" alt="">
+                <img src="imagem17.webp" width="400px" height="450px" alt="">
+                <img src="imagem18.png" width="500px" height="450px" alt="">
+                <img src="imagem19.jpg" width="400px" height="450px" alt="">
+                <img src="imagem20.webp" width="400px" height="450px" alt="">
+                
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <script src="js.js"></script>
+    </section>
+
+    <div class="container">
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Empréstimo de Livros</li>
+                <li>Consultoria de Referência</li>
+                <li>Eventos Culturais</li>
+                <li>Programas de Alfabetização</li>
+                <li>Acesso a Recursos Digitais</li>
+                <li>Espaços de Estudo</li>
+                <li>Atividades para Crianças</li>
+                <li>Serviços de Catalogação</li>
+                <li>Clubes do Livro</li>
+                <li>Apoio a Pesquisadores</li>
+              </ul>
+              
+        </section>
+    
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <ul>
+                <li><strong>Workshop de Inteligência Artificial</strong> - 12 de outubro de 2024</li>
+                <li><strong>Simpósio de Física Moderna</strong> - 20 de novembro de 2024</li>
+                <li><strong>Conferência sobre Biotecnologia</strong> - 15 de dezembro de 2024</li>
+                <li><strong>Fórum de Robótica Avançada</strong> - 22 de janeiro de 2025</li>
+                <li><strong>Seminário de Química Orgânica</strong> - 5 de fevereiro de 2025</li>
+                <li><strong>Encontro de Nanotecnologia</strong> - 18 de março de 2025</li>
+                <li><strong>Palestra sobre Exploração Espacial</strong> - 10 de abril de 2025</li>
+                <li><strong>Congresso de Ecologia e Meio Ambiente</strong> - 25 de maio de 2025</li>
+                <li><strong>Simulação de Computação Quântica</strong> - 12 de junho de 2025</li>
+                <li><strong>Sessão de Astrobiologia</strong> - 30 de julho de 2025</li>
+            </ul>
+    
+        </section>
+    </div>
+    
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome:" required>
+            <input type="email" placeholder="Seu Email:" required>
+            <input type="recomende um livro:" placeholder="Recomende um livro:" required>
+            <textarea placeholder="Faça seu pedido:" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Biblioteca Estelar. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js.js"></script>
+
+    
+</body>
+
+</html>

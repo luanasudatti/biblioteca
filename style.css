@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+    /* Fonte padrão para o corpo */
+    line-height: 1.6;
+    background-color: #E8D6F0;
+    /* Fundo lilás */
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #e3b3ff;
+    /* Rosa claro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    /* Fonte para o título */
+    font-size: 2.5em;
+    /* Tamanho do título */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+    text-align: center;
+    /* Centraliza o texto */
+
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD1E8;
+    /* Efeito hover em rosa mais claro */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#eventos, #servicos {
+    flex-grow: 1;
+    width: 100%;
+    margin: auto 10px;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #e5c6e7;
+    background: #c5afe2;
+    /* Fundo branco para seções */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.livros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.livro {
+    flex: 1 1 30%;
+    /* Flex item */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    text-align: center;
+    background:#c99eec;
+    /* Fundo claro para livros */
+    transition: transform 0.2s;
+}
+
+.livro:hover {
+    transform: scale(1.05);
+    /* Efeito de zoom ao passar o mouse */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Bordas arredondadas */
+}
+
+form button {
+    background: #FFB3D9;
+    /* Rosa claro */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #da9de2;
+    /* Rosa mais escuro para hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #c99eec;
+    /* Rosa claro */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.carrossel {
+ 
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#carrossel .carrossel-images {
+    display: flex;
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    margin-right: 10px;
+}
+
+.carrossel-slide {
+    text-align: center;
+    display: none;
+}
+
+.carrossel-slide.active {
+    display: block;
+}
+
+.carrosssel-slide img {
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.carrossel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+button:hover {
+    background-color: rgba(255, 99, 155, 0.9);
+    align-items: center;
+    /* Hover */
+}
+
+h2 {
+    font-size: 50px;
+
+}
+
+.class {
+    background-color:#c99eec;
+}
